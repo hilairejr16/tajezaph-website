@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="TAJEZAPH Services Home Improvement Logo">
+  <!-- Outer ring -->
+  <circle cx="250" cy="250" r="236" fill="white" stroke="#4A2C0A" stroke-width="9"/>
+  <!-- Inner ring -->
+  <circle cx="250" cy="250" r="224" fill="none" stroke="#4A2C0A" stroke-width="2.5"/>
+
+  <!-- HOME IMPROVEMENT curved along bottom -->
+  <defs>
+    <path id="btm" d="M 34,252 A 216,216 0 0,0 466,252"/>
+  </defs>
+  <text font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold"
+        fill="#4A2C0A" letter-spacing="6">
+    <textPath href="#btm" startOffset="50%" text-anchor="middle">HOME IMPROVEMENT</textPath>
+  </text>
+
+  <!-- Horizontal lines flanking TAJEZAPH -->
+  <line x1="33" y1="244" x2="467" y2="244" stroke="#4A2C0A" stroke-width="4.5"/>
+  <line x1="33" y1="300" x2="467" y2="300" stroke="#4A2C0A" stroke-width="2"/>
+
+  <!-- Star decorators at the sides -->
+  <text x="52"  y="279" text-anchor="middle" font-size="18" fill="#4A2C0A">&#9733;</text>
+  <text x="448" y="279" text-anchor="middle" font-size="18" fill="#4A2C0A">&#9733;</text>
+
+  <!-- TAJEZAPH bold serif text -->
+  <text x="250" y="293"
+        text-anchor="middle"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="60"
+        font-weight="900"
+        fill="#4A2C0A"
+        letter-spacing="3">TAJEZAPH</text>
+
+  <!-- "Services" italic script-style -->
+  <text x="250" y="336"
+        text-anchor="middle"
+        font-family="Georgia, 'Palatino Linotype', serif"
+        font-size="34"
+        font-style="italic"
+        fill="#4A2C0A">Services</text>
+
+  <!-- ============ TOOLS (upper half) ============ -->
+
+  <!-- HAMMER — upper-left, angled left-down -->
+  <g transform="translate(138,62) rotate(-28,30,90)">
+    <!-- Head -->
+    <rect x="-28" y="0"  width="58" height="26" rx="5" fill="#4A2C0A"/>
+    <!-- Claw notch on back face -->
+    <line x1="-28" y1="6"  x2="-44" y2="0"  stroke="#4A2C0A" stroke-width="5"/>
+    <line x1="-28" y1="20" x2="-44" y2="26" stroke="#4A2C0A" stroke-width="5"/>
+    <!-- Handle -->
+    <rect x="2" y="26" width="12" height="88" rx="5" fill="#4A2C0A"/>
+  </g>
+
+  <!-- WRENCH — center-left -->
+  <g transform="translate(216,44) rotate(-8,14,100)">
+    <!-- Open-end head -->
+    <path d="M 6,0 L -10,0 L -14,16 L -10,32 L 6,32 L 6,26 L -2,26 L -5,20 L -5,12 L -2,6 L 6,6 Z"
+          fill="#4A2C0A"/>
+    <rect x="5" y="4" width="18" height="24" rx="2" fill="#4A2C0A"/>
+    <path d="M 22,0 L 22,32 L 32,32 L 36,16 L 32,0 Z" fill="#4A2C0A"/>
+    <!-- Shaft -->
+    <rect x="4" y="32" width="14" height="86" rx="5" fill="#4A2C0A"/>
+    <!-- Closed box-end at bottom -->
+    <ellipse cx="11" cy="120" rx="17" ry="14" fill="#4A2C0A"/>
+    <ellipse cx="11" cy="120" rx="9"  ry="7"  fill="white"/>
+  </g>
+
+  <!-- SCREWDRIVER — center-right -->
+  <g transform="translate(268,42) rotate(10,14,100)">
+    <!-- Handle (rounded rect) -->
+    <rect x="0"  y="0"  width="28" height="44" rx="12" fill="#4A2C0A"/>
+    <!-- Neck taper -->
+    <rect x="9"  y="44" width="10" height="12" fill="#4A2C0A"/>
+    <!-- Long shaft -->
+    <rect x="11" y="56" width="6"  height="84" rx="2" fill="#4A2C0A"/>
+    <!-- Flat-head tip -->
+    <rect x="6"  y="140" width="16" height="5" rx="1" fill="#4A2C0A"/>
+  </g>
+
+  <!-- PAINTBRUSH — far right -->
+  <g transform="translate(328,58) rotate(22,14,95)">
+    <!-- Handle (tapered) -->
+    <path d="M 7,0 L 21,0 L 22,62 L 6,62 Z" fill="#4A2C0A"/>
+    <!-- Ferrule (metal band) -->
+    <rect x="4" y="62" width="20" height="13" rx="2" fill="#4A2C0A"/>
+    <!-- Bristle tip (teardrop) -->
+    <path d="M 4,75 Q 14,120 24,75 Z" fill="#4A2C0A"/>
+  </g>
+
+  <!-- GEAR — upper far-left (decorative) -->
+  <g transform="translate(96,58)">
+    <!-- Outer gear ring -->
+    <circle cx="22" cy="22" r="22" fill="none" stroke="#4A2C0A" stroke-width="6"/>
+    <!-- Hub -->
+    <circle cx="22" cy="22" r="9" fill="#4A2C0A"/>
+    <!-- Teeth (8 around circle) -->
+    <rect x="19" y="-5"  width="6" height="11" rx="2" fill="#4A2C0A"/>
+    <rect x="19" y="38"  width="6" height="11" rx="2" fill="#4A2C0A"/>
+    <rect x="-5" y="19"  width="11" height="6" rx="2" fill="#4A2C0A"/>
+    <rect x="38" y="19"  width="11" height="6" rx="2" fill="#4A2C0A"/>
+    <g transform="rotate(45,22,22)">
+      <rect x="19" y="-5"  width="6" height="11" rx="2" fill="#4A2C0A"/>
+      <rect x="19" y="38"  width="6" height="11" rx="2" fill="#4A2C0A"/>
+      <rect x="-5" y="19"  width="11" height="6" rx="2" fill="#4A2C0A"/>
+      <rect x="38" y="19"  width="11" height="6" rx="2" fill="#4A2C0A"/>
+    </g>
+  </g>
+
+  <!-- Decorative small dots between tools and text area -->
+  <circle cx="160" cy="230" r="4" fill="#4A2C0A" opacity="0.4"/>
+  <circle cx="250" cy="232" r="4" fill="#4A2C0A" opacity="0.4"/>
+  <circle cx="340" cy="230" r="4" fill="#4A2C0A" opacity="0.4"/>
+</svg>

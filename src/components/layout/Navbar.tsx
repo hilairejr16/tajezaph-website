@@ -47,7 +47,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative w-12 h-12 group-hover:scale-105 transition-transform">
               <Image
-                src="/images/logo.png"
+                src="/images/logo.svg"
                 alt="TAJEZAPH Services Logo"
                 fill
                 className="object-contain drop-shadow-md"

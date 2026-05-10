@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
+import NextImage from "next/image";
 import {
-  LayoutDashboard, Image, MessageSquare, FileText, Star, Settings,
+  LayoutDashboard, Image as ImageIcon, MessageSquare, FileText, Star, Settings,
   Upload, Eye, Plus, Trash2, Edit, LogOut, Menu, X
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { id: "overview", label: "Overview", icon: LayoutDashboard },
   { id: "quotes", label: "Quote Requests", icon: FileText },
-  { id: "gallery", label: "Gallery", icon: Image },
+  { id: "gallery", label: "Gallery", icon: ImageIcon },
   { id: "testimonials", label: "Testimonials", icon: Star },
   { id: "messages", label: "Messages", icon: MessageSquare },
   { id: "settings", label: "Settings", icon: Settings },
@@ -58,7 +58,7 @@ export default function AdminDashboard() {
         <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm">
           <div className="text-center mb-8">
             <div className="relative w-20 h-20 mx-auto mb-3">
-              <Image src="/images/logo.png" alt="TAJEZAPH Logo" fill className="object-contain" />
+              <NextImage src="/images/logo.svg" alt="TAJEZAPH Logo" fill className="object-contain" />
             </div>
             <h1 className="font-heading font-black text-brand-blue-dark text-xl">Admin Dashboard</h1>
             <p className="text-gray-500 text-sm mt-1">TAJEZAPH Services</p>
@@ -99,7 +99,7 @@ export default function AdminDashboard() {
         <div className="p-5 border-b border-white/10 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="relative w-8 h-8 shrink-0">
-              <Image src="/images/logo.png" alt="TAJEZAPH" fill className="object-contain" />
+              <NextImage src="/images/logo.svg" alt="TAJEZAPH" fill className="object-contain" />
             </div>
             <span className="text-white font-heading font-bold text-sm">Admin Panel</span>
           </div>
