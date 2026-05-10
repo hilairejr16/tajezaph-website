@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -44,8 +45,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-brand-gold rounded-lg flex items-center justify-center font-heading font-black text-brand-blue-dark text-lg group-hover:scale-105 transition-transform">
-              T
+            <div className="relative w-12 h-12 group-hover:scale-105 transition-transform">
+              <Image
+                src="/images/logo.png"
+                alt="TAJEZAPH Services Logo"
+                fill
+                className="object-contain drop-shadow-md"
+                priority
+              />
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-heading font-black text-white text-base tracking-wide">

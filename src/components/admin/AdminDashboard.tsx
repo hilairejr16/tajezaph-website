@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {
   LayoutDashboard, Image, MessageSquare, FileText, Star, Settings,
   Upload, Eye, Plus, Trash2, Edit, LogOut, Menu, X
@@ -56,8 +57,8 @@ export default function AdminDashboard() {
       <div className="min-h-screen bg-brand-blue-dark flex items-center justify-center p-4">
         <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-sm">
           <div className="text-center mb-8">
-            <div className="w-14 h-14 bg-brand-gold rounded-xl flex items-center justify-center mx-auto mb-3 font-heading font-black text-brand-blue-dark text-2xl">
-              T
+            <div className="relative w-20 h-20 mx-auto mb-3">
+              <Image src="/images/logo.png" alt="TAJEZAPH Logo" fill className="object-contain" />
             </div>
             <h1 className="font-heading font-black text-brand-blue-dark text-xl">Admin Dashboard</h1>
             <p className="text-gray-500 text-sm mt-1">TAJEZAPH Services</p>
@@ -97,8 +98,8 @@ export default function AdminDashboard() {
         {/* Sidebar Header */}
         <div className="p-5 border-b border-white/10 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-brand-gold rounded-lg flex items-center justify-center font-heading font-black text-brand-blue-dark text-sm">
-              T
+            <div className="relative w-8 h-8 shrink-0">
+              <Image src="/images/logo.png" alt="TAJEZAPH" fill className="object-contain" />
             </div>
             <span className="text-white font-heading font-bold text-sm">Admin Panel</span>
           </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Youtube } from "lucide-react";
 
 const services = [
@@ -53,14 +54,19 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-brand-gold rounded-lg flex items-center justify-center font-heading font-black text-brand-blue-dark text-lg">
-                T
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-14 h-14 shrink-0">
+                <Image
+                  src="/images/logo.png"
+                  alt="TAJEZAPH Services Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <div className="flex flex-col leading-tight">
                 <span className="font-heading font-black text-white text-base">TAJEZAPH</span>
                 <span className="text-brand-gold text-[10px] font-medium tracking-widest uppercase">
-                  Home Improvement
+                  Services – Home Improvement
                 </span>
               </div>
             </div>
